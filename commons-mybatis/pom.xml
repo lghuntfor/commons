@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cn.lghuntfor</groupId>
+        <artifactId>commons</artifactId>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <groupId>cn.lghuntfor</groupId>
+    <artifactId>commons-mybatis</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>commons-mybatis-api</module>
+        <module>commons-mybatis-tk</module>
+        <module>commons-mybatis-plus</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.lghuntfor</groupId>
+            <artifactId>commons-common</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

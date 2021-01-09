@@ -1,0 +1,8 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.lghuntfor.commons.webmvc.serialzation.SerializationConfig,\
+cn.lghuntfor.commons.webmvc.filter.LogFilterConfig,\
+cn.lghuntfor.commons.webmvc.cors.CorsWebConfig,\
+cn.lghuntfor.commons.webmvc.exception.GlobalExceptionHandler,\
+cn.lghuntfor.commons.webmvc.cache.CacheControlConfig,\
+cn.lghuntfor.commons.webmvc.swagger.SwaggerConfig

@@ -1,0 +1,2 @@
+plumelogConsumerFilter=cn.lghuntfor.commons.plumelog.dubbo.filter.PlumelogConsumerFilter
+plumelogProviderFilter=cn.lghuntfor.commons.plumelog.dubbo.filter.PlumelogProviderFilter
