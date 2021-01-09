@@ -1,4 +1,4 @@
-package com.ndccloud.commons.trace.webmvc.filter;
+package cn.lghuntfor.commons.trace.webmvc.filter;
 
 import cn.hutool.core.util.StrUtil;
 import cn.lghuntfor.commons.trace.common.TraceConstant;

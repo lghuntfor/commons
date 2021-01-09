@@ -13,7 +13,7 @@ import org.aspectj.lang.annotation.Aspect;
 @Aspect
 public class PlumelogTraceAspect extends AbstractAspect {
 
-    @Around("execution(* com.ndccloud..*.*(..))")
+    @Around("execution(* cn.lghuntfor..*.*(..))")
     public Object around(JoinPoint joinPoint) throws Throwable {
         return super.aroundExecute(joinPoint);
     }

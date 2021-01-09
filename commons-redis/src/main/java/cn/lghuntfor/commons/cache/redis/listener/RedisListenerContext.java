@@ -24,7 +24,7 @@ public class RedisListenerContext {
      * @date 2020/9/7
      * @param bean
      * @param listenMethod
-     * @return com.ndccloud.commons.cache.redis.subscribe.SubscribeBeanWrapper
+     * @return cn.lghuntfor.commons.cache.redis.subscribe.SubscribeBeanWrapper
      */
     public static ListenerBeanWrapper getBeanWrapper(Object bean, Method listenMethod) {
         Parameter[] parameters = listenMethod.getParameters();

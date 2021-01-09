@@ -1,6 +1,6 @@
-package com.ndccloud.commons.trace.webmvc.config;
+package cn.lghuntfor.commons.trace.webmvc.config;
 
-import com.ndccloud.commons.trace.webmvc.filter.TraceWebFilter;
+import cn.lghuntfor.commons.trace.webmvc.filter.TraceWebFilter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;

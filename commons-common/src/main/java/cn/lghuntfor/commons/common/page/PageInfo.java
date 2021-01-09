@@ -131,7 +131,7 @@ public class PageInfo<T> implements Serializable {
      * @author liaogang
      * @date 2020/11/6
      * @param page
-     * @return com.ndccloud.commons.common.page.PageInfo<T>
+     * @return cn.lghuntfor.commons.common.page.PageInfo<T>
      */
     public static <T> PageInfo<T> copyPageInfo(PageInfo<?> page) {
         return new PageInfo(Convert.toLong(page.getPage(), 1L), Convert.toLong(page.getSize(), 10L)
@@ -144,7 +144,7 @@ public class PageInfo<T> implements Serializable {
      * @author liaogang
      * @date 2020/11/5
      * @param query
-     * @return com.ndccloud.commons.common.page.PageInfo<T>
+     * @return cn.lghuntfor.commons.common.page.PageInfo<T>
      */
     public static <T> PageInfo<T> buildPageInfo(Query query) {
         return new PageInfo(Convert.toLong(query.getPage(), 1L), Convert.toLong(query.getSize(), 10L)

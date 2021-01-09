@@ -29,7 +29,7 @@ public class PageUtil {
      * @author liaogang
      * @date 2020/11/5
      * @param page
-     * @return com.ndccloud.commons.common.page.PageInfo<T>
+     * @return cn.lghuntfor.commons.common.page.PageInfo<T>
      */
     public static <T> PageInfo<T> convert(IPage<T> page) {
         List<OrderItem> orders = page.orders();
@@ -93,7 +93,7 @@ public class PageUtil {
      * @author liaogang
      * @date 2020/11/5
      * @param query
-     * @return com.ndccloud.commons.common.page.PageInfo<T>
+     * @return cn.lghuntfor.commons.common.page.PageInfo<T>
      */
     public static <T> PageInfo<T> buildPageInfo(Query query) {
         return new PageInfo(Convert.toLong(query.getPage(), 1L), Convert.toLong(query.getSize(), 10L)

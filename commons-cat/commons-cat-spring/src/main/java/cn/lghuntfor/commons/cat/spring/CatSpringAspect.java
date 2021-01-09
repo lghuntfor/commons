@@ -19,7 +19,7 @@ public class CatSpringAspect extends CatAbstractAspect {
      * 切入点
      * 根据实际情况进行修改包名
      */
-    @Pointcut("execution(* com.ndccloud..*.*(..))")
+    @Pointcut("execution(* cn.lghuntfor..*.*(..))")
     public void methodIntercept(){}
 
     /**
